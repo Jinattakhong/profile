@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import NameTag from './NameTag';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NameTag name="JINATTA KHONGHUN" />
+      <NameTag name="จิณัฐตา คงคุณ" />
+      <NameTag name="FA" />
+      <NameTag name="ฟ้า" />
+      <NameTag name=" BORN: 1 FEBUARY 2002" />
+      <NameTag name="เกิด 1 กุมภาพันธ์ 2545" />
+      <NameTag name="HIGHT : 178 CM" />
+      <NameTag name="สูง 178 ซม." />
+      <NameTag name="FA" />
+    
+
+
+
     </div>
   );
 }
